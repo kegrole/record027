@@ -1,0 +1,86 @@
+{
+  "rules": [
+    {
+      "rule_id": "rule-exact-app",
+      "allowed_origins": ["https://app.example.com"],
+      "allowed_methods": ["GET", "POST"],
+      "allowed_headers": ["Content-Type", "Authorization"],
+      "exposed_headers": ["X-Request-Id"],
+      "allow_credentials": true,
+      "max_age": 600
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "allowed_origins": ["http://app.example.com"],
+      "allowed_methods": ["GET"],
+      "allowed_headers": ["Content-Type"],
+      "exposed_headers": [],
+      "allow_credentials": false,
+      "max_age": null
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "allowed_origins": ["https://example.com"],
+      "allowed_methods": ["GET"],
+      "allowed_headers": ["Content-Type"],
+      "exposed_headers": [],
+      "allow_credentials": false,
+      "max_age": null
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "allowed_origins": ["*.example.com"],
+      "allowed_methods": ["GET", "POST"],
+      "allowed_headers": ["Content-Type"],
+      "exposed_headers": [],
+      "allow_credentials": false,
+      "max_age": 3600
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "allowed_origins": ["*.*.example.com"],
+      "allowed_methods": ["GET"],
+      "allowed_headers": ["Content-Type"],
+      "exposed_headers": [],
+      "allow_credentials": false,
+      "max_age": null
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "allowed_origins": ["*"],
+      "allowed_methods": ["GET"],
+      "allowed_headers": ["Content-Type"],
+      "exposed_headers": [],
+      "allow_credentials": true,
+      "max_age": null
+    },
+    {
+      "rule_id": "rule-null",
+      "allowed_origins": ["null"],
+      "allowed_methods": ["GET"],
+      "allowed_headers": ["Content-Type"],
+      "exposed_headers": [],
+      "allow_credentials": false,
+      "max_age": null
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "allowed_origins": ["https://app.example.com:8443"],
+      "allowed_methods": ["GET"],
+      "allowed_headers": ["Content-Type"],
+      "exposed_headers": [],
+      "allow_credentials": false,
+      "max_age": null
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "allowed_origins": ["^https://app\\.example\\.com$"],
+      "allowed_methods": ["GET"],
+      "allowed_headers": ["Content-Type"],
+      "exposed_headers": [],
+      "allow_credentials": false,
+      "max_age": null
+    }
+  ]
+}
+

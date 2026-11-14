@@ -1,0 +1,3117 @@
+{
+  "summary": {
+    "rules": 9,
+    "requests": 20,
+    "evaluations": 180,
+    "issues": 120,
+    "denied": 155
+  },
+  "evaluations": [
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "http://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://a.b.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_too_large;origin_not_allowed",
+      "issues": [
+        "max_age_too_large",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_negative;origin_not_allowed",
+      "issues": [
+        "max_age_negative",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_invalid;origin_not_allowed",
+      "issues": [
+        "max_age_invalid",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "method_not_allowed;origin_not_allowed",
+      "issues": [
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;method_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com:8443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "null",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "null_with_exact",
+      "issues": [
+        "null_with_exact"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "http://app.example.com:443",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://a.b.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "echo_wildcard_with_credentials",
+      "issues": [
+        "echo_wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "missing_vary",
+      "issues": [
+        "missing_vary"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "echo_wildcard_with_credentials;missing_vary",
+      "issues": [
+        "echo_wildcard_with_credentials",
+        "missing_vary"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "max_age_too_large",
+      "issues": [
+        "max_age_too_large"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "max_age_negative",
+      "issues": [
+        "max_age_negative"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "max_age_invalid",
+      "issues": [
+        "max_age_invalid"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "method_not_allowed",
+      "issues": [
+        "method_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "header_not_allowed",
+      "issues": [
+        "header_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "header_not_allowed;method_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "method_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com:443",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com:8443",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "null",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "null_with_credentials",
+      "issues": [
+        "null_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "http://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://a.b.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_too_large;origin_not_allowed",
+      "issues": [
+        "max_age_too_large",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_negative;origin_not_allowed",
+      "issues": [
+        "max_age_negative",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_invalid;origin_not_allowed",
+      "issues": [
+        "max_age_invalid",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "method_not_allowed;origin_not_allowed",
+      "issues": [
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;method_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com:8443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "null",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "null_with_exact",
+      "issues": [
+        "null_with_exact"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "http://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://a.b.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_too_large;origin_not_allowed",
+      "issues": [
+        "max_age_too_large",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_negative;origin_not_allowed",
+      "issues": [
+        "max_age_negative",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_invalid;origin_not_allowed",
+      "issues": [
+        "max_age_invalid",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "method_not_allowed;origin_not_allowed",
+      "issues": [
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;method_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com:8443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "null",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "null_with_exact",
+      "issues": [
+        "null_with_exact"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "http://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://a.b.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_too_large;origin_not_allowed",
+      "issues": [
+        "max_age_too_large",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_negative;origin_not_allowed",
+      "issues": [
+        "max_age_negative",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_invalid;origin_not_allowed",
+      "issues": [
+        "max_age_invalid",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "method_not_allowed;origin_not_allowed",
+      "issues": [
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;method_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com:8443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "null",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "null_origin_allowed",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "http://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://a.b.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_too_large",
+      "issues": [
+        "max_age_too_large"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_negative",
+      "issues": [
+        "max_age_negative"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_invalid",
+      "issues": [
+        "max_age_invalid"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "method_not_allowed",
+      "issues": [
+        "method_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed",
+      "issues": [
+        "header_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;method_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "method_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com:8443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "null",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "null_with_exact",
+      "issues": [
+        "null_with_exact"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "http://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://a.b.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_cookie_request;wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_cookie_request",
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "echo_wildcard_with_credentials;wildcard_with_credentials",
+      "issues": [
+        "echo_wildcard_with_credentials",
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "missing_vary;wildcard_with_credentials;wildcard_without_vary",
+      "issues": [
+        "missing_vary",
+        "wildcard_with_credentials",
+        "wildcard_without_vary"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "echo_wildcard_with_credentials;missing_vary;wildcard_with_credentials;wildcard_without_vary",
+      "issues": [
+        "echo_wildcard_with_credentials",
+        "missing_vary",
+        "wildcard_with_credentials",
+        "wildcard_without_vary"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "max_age_too_large;wildcard_with_credentials",
+      "issues": [
+        "max_age_too_large",
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "max_age_negative;wildcard_with_credentials",
+      "issues": [
+        "max_age_negative",
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "max_age_invalid;wildcard_with_credentials",
+      "issues": [
+        "max_age_invalid",
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "method_not_allowed;wildcard_with_credentials",
+      "issues": [
+        "method_not_allowed",
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "header_not_allowed;wildcard_with_credentials",
+      "issues": [
+        "header_not_allowed",
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "header_not_allowed;method_not_allowed;wildcard_with_credentials",
+      "issues": [
+        "header_not_allowed",
+        "method_not_allowed",
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com:8443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "wildcard_with_credentials",
+      "issues": [
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "null",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": true,
+      "decision": "deny",
+      "reason": "null_with_credentials;wildcard_with_credentials",
+      "issues": [
+        "null_with_credentials",
+        "wildcard_with_credentials"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "http://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://a.b.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_too_large;origin_not_allowed",
+      "issues": [
+        "max_age_too_large",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_negative;origin_not_allowed",
+      "issues": [
+        "max_age_negative",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_invalid;origin_not_allowed",
+      "issues": [
+        "max_age_invalid",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "method_not_allowed;origin_not_allowed",
+      "issues": [
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;method_not_allowed;origin_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "method_not_allowed",
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com:443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com:8443",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://example.com",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "null",
+      "allowed_methods": [
+        "GET"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "null_with_exact",
+      "issues": [
+        "null_with_exact"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "http://app.example.com:443",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://a.b.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_too_large",
+      "issues": [
+        "max_age_too_large"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_negative",
+      "issues": [
+        "max_age_negative"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "max_age_invalid",
+      "issues": [
+        "max_age_invalid"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "method_not_allowed",
+      "issues": [
+        "method_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed",
+      "issues": [
+        "header_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "header_not_allowed;method_not_allowed",
+      "issues": [
+        "header_not_allowed",
+        "method_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com:443",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com:8443",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "allow",
+      "reason": "",
+      "issues": []
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://example.com",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "origin_not_allowed",
+      "issues": [
+        "origin_not_allowed"
+      ]
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "null",
+      "allowed_methods": [
+        "GET",
+        "POST"
+      ],
+      "credentials": false,
+      "decision": "deny",
+      "reason": "null_with_exact",
+      "issues": [
+        "null_with_exact"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin HTTPS://APP.EXAMPLE.COM 未命中规则 rule-exact-alt-port 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "http://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin http://app.example.com:443 未命中规则 rule-exact-alt-port 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://a.b.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://a.b.example.com 未命中规则 rule-exact-alt-port 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "issue_type": "header_not_allowed",
+      "reason": "请求头 X-Custom-Header 不在规则 rule-exact-alt-port 的允许列表中"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_invalid",
+      "reason": "预检响应的 Access-Control-Max-Age 值 'soon' 无法解析为数字"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_negative",
+      "reason": "预检响应的 Access-Control-Max-Age 为负数 -1"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_too_large",
+      "reason": "预检响应的 Access-Control-Max-Age 86401 超过上限 86400"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "issue_type": "method_not_allowed",
+      "reason": "请求方法 DELETE 不在规则 rule-exact-alt-port 的允许列表 ['GET'] 中"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com 未命中规则 rule-exact-alt-port 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:443 未命中规则 rule-exact-alt-port 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://evil.example.com.attacker.net 未命中规则 rule-exact-alt-port 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "https://example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://example.com 未命中规则 rule-exact-alt-port 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-alt-port",
+      "request_origin": "null",
+      "issue_type": "null_with_exact",
+      "reason": "请求 origin 为 null 而规则为精确匹配：null 不等于任何具体 origin"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "http://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin http://app.example.com:443 未命中规则 rule-exact-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://a.b.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://a.b.example.com 未命中规则 rule-exact-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "echo_wildcard_with_credentials",
+      "reason": "允许凭证的规则的预检响应把 Access-Control-Allow-Origin 回显为 *，浏览器会拒绝且配置自相矛盾"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "header_not_allowed",
+      "reason": "请求头 X-Custom-Header 不在规则 rule-exact-app 的允许列表中"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_invalid",
+      "reason": "预检响应的 Access-Control-Max-Age 值 'soon' 无法解析为数字"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_negative",
+      "reason": "预检响应的 Access-Control-Max-Age 为负数 -1"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_too_large",
+      "reason": "预检响应的 Access-Control-Max-Age 86401 超过上限 86400"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "method_not_allowed",
+      "reason": "请求方法 DELETE 不在规则 rule-exact-app 的允许列表 ['GET', 'POST'] 中"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "missing_vary",
+      "reason": "允许凭证的规则的预检响应缺少 Vary: Origin，共享缓存可能把响应错发给其他 origin"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://app.example.com:8443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:8443 未命中规则 rule-exact-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://evil.example.com.attacker.net 未命中规则 rule-exact-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "https://example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://example.com 未命中规则 rule-exact-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-app",
+      "request_origin": "null",
+      "issue_type": "null_with_credentials",
+      "reason": "请求 origin 为 null 且规则允许凭证：null origin 来源不可信，一律拒绝"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin HTTPS://APP.EXAMPLE.COM 未命中规则 rule-exact-http-scheme 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "http://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin http://app.example.com:443 未命中规则 rule-exact-http-scheme 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://a.b.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://a.b.example.com 未命中规则 rule-exact-http-scheme 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "issue_type": "header_not_allowed",
+      "reason": "请求头 X-Custom-Header 不在规则 rule-exact-http-scheme 的允许列表中"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_invalid",
+      "reason": "预检响应的 Access-Control-Max-Age 值 'soon' 无法解析为数字"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_negative",
+      "reason": "预检响应的 Access-Control-Max-Age 为负数 -1"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_too_large",
+      "reason": "预检响应的 Access-Control-Max-Age 86401 超过上限 86400"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "issue_type": "method_not_allowed",
+      "reason": "请求方法 DELETE 不在规则 rule-exact-http-scheme 的允许列表 ['GET'] 中"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com 未命中规则 rule-exact-http-scheme 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:443 未命中规则 rule-exact-http-scheme 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://app.example.com:8443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:8443 未命中规则 rule-exact-http-scheme 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://evil.example.com.attacker.net 未命中规则 rule-exact-http-scheme 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "https://example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://example.com 未命中规则 rule-exact-http-scheme 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-http-scheme",
+      "request_origin": "null",
+      "issue_type": "null_with_exact",
+      "reason": "请求 origin 为 null 而规则为精确匹配：null 不等于任何具体 origin"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin HTTPS://APP.EXAMPLE.COM 未命中规则 rule-exact-parent 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "http://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin http://app.example.com:443 未命中规则 rule-exact-parent 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://a.b.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://a.b.example.com 未命中规则 rule-exact-parent 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "issue_type": "header_not_allowed",
+      "reason": "请求头 X-Custom-Header 不在规则 rule-exact-parent 的允许列表中"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_invalid",
+      "reason": "预检响应的 Access-Control-Max-Age 值 'soon' 无法解析为数字"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_negative",
+      "reason": "预检响应的 Access-Control-Max-Age 为负数 -1"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_too_large",
+      "reason": "预检响应的 Access-Control-Max-Age 86401 超过上限 86400"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "issue_type": "method_not_allowed",
+      "reason": "请求方法 DELETE 不在规则 rule-exact-parent 的允许列表 ['GET'] 中"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com 未命中规则 rule-exact-parent 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:443 未命中规则 rule-exact-parent 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://app.example.com:8443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:8443 未命中规则 rule-exact-parent 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://evil.example.com.attacker.net 未命中规则 rule-exact-parent 的任何允许项"
+    },
+    {
+      "rule_id": "rule-exact-parent",
+      "request_origin": "null",
+      "issue_type": "null_with_exact",
+      "reason": "请求 origin 为 null 而规则为精确匹配：null 不等于任何具体 origin"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin HTTPS://APP.EXAMPLE.COM 未命中规则 rule-null 的任何允许项"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "http://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin http://app.example.com:443 未命中规则 rule-null 的任何允许项"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://a.b.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://a.b.example.com 未命中规则 rule-null 的任何允许项"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "issue_type": "header_not_allowed",
+      "reason": "请求头 X-Custom-Header 不在规则 rule-null 的允许列表中"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_invalid",
+      "reason": "预检响应的 Access-Control-Max-Age 值 'soon' 无法解析为数字"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_negative",
+      "reason": "预检响应的 Access-Control-Max-Age 为负数 -1"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_too_large",
+      "reason": "预检响应的 Access-Control-Max-Age 86401 超过上限 86400"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "issue_type": "method_not_allowed",
+      "reason": "请求方法 DELETE 不在规则 rule-null 的允许列表 ['GET'] 中"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com 未命中规则 rule-null 的任何允许项"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:443 未命中规则 rule-null 的任何允许项"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://app.example.com:8443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:8443 未命中规则 rule-null 的任何允许项"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://evil.example.com.attacker.net 未命中规则 rule-null 的任何允许项"
+    },
+    {
+      "rule_id": "rule-null",
+      "request_origin": "https://example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://example.com 未命中规则 rule-null 的任何允许项"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin HTTPS://APP.EXAMPLE.COM 未命中规则 rule-regex-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "http://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin http://app.example.com:443 未命中规则 rule-regex-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://a.b.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://a.b.example.com 未命中规则 rule-regex-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "header_not_allowed",
+      "reason": "请求头 X-Custom-Header 不在规则 rule-regex-app 的允许列表中"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_invalid",
+      "reason": "预检响应的 Access-Control-Max-Age 值 'soon' 无法解析为数字"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_negative",
+      "reason": "预检响应的 Access-Control-Max-Age 为负数 -1"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_too_large",
+      "reason": "预检响应的 Access-Control-Max-Age 86401 超过上限 86400"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com",
+      "issue_type": "method_not_allowed",
+      "reason": "请求方法 DELETE 不在规则 rule-regex-app 的允许列表 ['GET'] 中"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:443 未命中规则 rule-regex-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://app.example.com:8443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:8443 未命中规则 rule-regex-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://evil.example.com.attacker.net 未命中规则 rule-regex-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "https://example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://example.com 未命中规则 rule-regex-app 的任何允许项"
+    },
+    {
+      "rule_id": "rule-regex-app",
+      "request_origin": "null",
+      "issue_type": "null_with_exact",
+      "reason": "请求 origin 为 null 而规则为精确匹配：null 不等于任何具体 origin"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "issue_type": "wildcard_with_credentials",
+      "reason": "规则 origin 为 * 且允许凭证：任意站点都能发起带凭证的跨域请求，属于危险配置"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "http://app.example.com:443",
+      "issue_type": "wildcard_with_credentials",
+      "reason": "规则 origin 为 * 且允许凭证：任意站点都能发起带凭证的跨域请求，属于危险配置"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://a.b.example.com",
+      "issue_type": "wildcard_with_credentials",
+      "reason": "规则 origin 为 * 且允许凭证：任意站点都能发起带凭证的跨域请求，属于危险配置"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "echo_wildcard_with_credentials",
+      "reason": "允许凭证的规则的预检响应把 Access-Control-Allow-Origin 回显为 *，浏览器会拒绝且配置自相矛盾"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "header_not_allowed",
+      "reason": "请求头 X-Custom-Header 不在规则 rule-star-creds 的允许列表中"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_invalid",
+      "reason": "预检响应的 Access-Control-Max-Age 值 'soon' 无法解析为数字"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_negative",
+      "reason": "预检响应的 Access-Control-Max-Age 为负数 -1"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_too_large",
+      "reason": "预检响应的 Access-Control-Max-Age 86401 超过上限 86400"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "method_not_allowed",
+      "reason": "请求方法 DELETE 不在规则 rule-star-creds 的允许列表 ['GET'] 中"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "missing_vary",
+      "reason": "允许凭证的规则的预检响应缺少 Vary: Origin，共享缓存可能把响应错发给其他 origin"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "wildcard_with_cookie_request",
+      "reason": "规则 origin 为 * 且请求携带 Cookie 头： Cookie 会随响应暴露给任意站点"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "wildcard_with_credentials",
+      "reason": "规则 origin 为 * 且允许凭证：任意站点都能发起带凭证的跨域请求，属于危险配置"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com",
+      "issue_type": "wildcard_without_vary",
+      "reason": "规则 origin 为 * 且响应缺少 Vary: Origin：共享缓存可能把响应错发给其他 origin"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com:443",
+      "issue_type": "wildcard_with_credentials",
+      "reason": "规则 origin 为 * 且允许凭证：任意站点都能发起带凭证的跨域请求，属于危险配置"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://app.example.com:8443",
+      "issue_type": "wildcard_with_credentials",
+      "reason": "规则 origin 为 * 且允许凭证：任意站点都能发起带凭证的跨域请求，属于危险配置"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "issue_type": "wildcard_with_credentials",
+      "reason": "规则 origin 为 * 且允许凭证：任意站点都能发起带凭证的跨域请求，属于危险配置"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "https://example.com",
+      "issue_type": "wildcard_with_credentials",
+      "reason": "规则 origin 为 * 且允许凭证：任意站点都能发起带凭证的跨域请求，属于危险配置"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "null",
+      "issue_type": "null_with_credentials",
+      "reason": "请求 origin 为 null 且规则允许凭证：null origin 来源不可信，一律拒绝"
+    },
+    {
+      "rule_id": "rule-star-creds",
+      "request_origin": "null",
+      "issue_type": "wildcard_with_credentials",
+      "reason": "规则 origin 为 * 且允许凭证：任意站点都能发起带凭证的跨域请求，属于危险配置"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "HTTPS://APP.EXAMPLE.COM",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin HTTPS://APP.EXAMPLE.COM 未命中规则 rule-wildcard-deep 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "http://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin http://app.example.com:443 未命中规则 rule-wildcard-deep 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "issue_type": "header_not_allowed",
+      "reason": "请求头 X-Custom-Header 不在规则 rule-wildcard-deep 的允许列表中"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_invalid",
+      "reason": "预检响应的 Access-Control-Max-Age 值 'soon' 无法解析为数字"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_negative",
+      "reason": "预检响应的 Access-Control-Max-Age 为负数 -1"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_too_large",
+      "reason": "预检响应的 Access-Control-Max-Age 86401 超过上限 86400"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "issue_type": "method_not_allowed",
+      "reason": "请求方法 DELETE 不在规则 rule-wildcard-deep 的允许列表 ['GET'] 中"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com 未命中规则 rule-wildcard-deep 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com:443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:443 未命中规则 rule-wildcard-deep 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://app.example.com:8443",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://app.example.com:8443 未命中规则 rule-wildcard-deep 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://evil.example.com.attacker.net 未命中规则 rule-wildcard-deep 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "https://example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://example.com 未命中规则 rule-wildcard-deep 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-deep",
+      "request_origin": "null",
+      "issue_type": "null_with_exact",
+      "reason": "请求 origin 为 null 而规则为精确匹配：null 不等于任何具体 origin"
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://a.b.example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://a.b.example.com 未命中规则 rule-wildcard-sub 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "issue_type": "header_not_allowed",
+      "reason": "请求头 X-Custom-Header 不在规则 rule-wildcard-sub 的允许列表中"
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_invalid",
+      "reason": "预检响应的 Access-Control-Max-Age 值 'soon' 无法解析为数字"
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_negative",
+      "reason": "预检响应的 Access-Control-Max-Age 为负数 -1"
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "issue_type": "max_age_too_large",
+      "reason": "预检响应的 Access-Control-Max-Age 86401 超过上限 86400"
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://app.example.com",
+      "issue_type": "method_not_allowed",
+      "reason": "请求方法 DELETE 不在规则 rule-wildcard-sub 的允许列表 ['GET', 'POST'] 中"
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://evil.example.com.attacker.net",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://evil.example.com.attacker.net 未命中规则 rule-wildcard-sub 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "https://example.com",
+      "issue_type": "origin_not_allowed",
+      "reason": "请求 origin https://example.com 未命中规则 rule-wildcard-sub 的任何允许项"
+    },
+    {
+      "rule_id": "rule-wildcard-sub",
+      "request_origin": "null",
+      "issue_type": "null_with_exact",
+      "reason": "请求 origin 为 null 而规则为精确匹配：null 不等于任何具体 origin"
+    }
+  ]
+}

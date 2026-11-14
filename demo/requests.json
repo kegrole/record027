@@ -1,0 +1,152 @@
+{
+  "requests": [
+    {
+      "request_id": "req-basic",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "request_headers": ["Content-Type"]
+    },
+    {
+      "request_id": "req-default-port",
+      "origin": "https://app.example.com:443",
+      "method": "GET"
+    },
+    {
+      "request_id": "req-scheme-port-mismatch",
+      "origin": "http://app.example.com:443",
+      "method": "GET"
+    },
+    {
+      "request_id": "req-alt-port",
+      "origin": "https://app.example.com:8443",
+      "method": "GET"
+    },
+    {
+      "request_id": "req-deep-subdomain",
+      "origin": "https://a.b.example.com",
+      "method": "GET"
+    },
+    {
+      "request_id": "req-evil-suffix",
+      "origin": "https://evil.example.com.attacker.net",
+      "method": "GET"
+    },
+    {
+      "request_id": "req-parent-domain",
+      "origin": "https://example.com",
+      "method": "GET"
+    },
+    {
+      "request_id": "req-null",
+      "origin": "null",
+      "method": "GET"
+    },
+    {
+      "request_id": "req-uppercase",
+      "origin": "HTTPS://APP.EXAMPLE.COM",
+      "method": "GET"
+    },
+    {
+      "request_id": "req-cookie",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "headers": {"Cookie": "session=abc123"}
+    },
+    {
+      "request_id": "req-preflight-ok",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "response": {
+        "headers": {
+          "Access-Control-Allow-Origin": "https://app.example.com",
+          "Vary": "Origin"
+        }
+      }
+    },
+    {
+      "request_id": "req-preflight-echo-star",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "response": {
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Vary": "Origin"
+        }
+      }
+    },
+    {
+      "request_id": "req-preflight-missing-vary",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "response": {
+        "headers": {
+          "Access-Control-Allow-Origin": "https://app.example.com"
+        }
+      }
+    },
+    {
+      "request_id": "req-preflight-star-no-vary",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "response": {
+        "headers": {
+          "Access-Control-Allow-Origin": "*"
+        }
+      }
+    },
+    {
+      "request_id": "req-maxage-too-large",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "response": {
+        "headers": {
+          "Access-Control-Allow-Origin": "https://app.example.com",
+          "Vary": "Origin",
+          "Access-Control-Max-Age": "86401"
+        }
+      }
+    },
+    {
+      "request_id": "req-maxage-negative",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "response": {
+        "headers": {
+          "Access-Control-Allow-Origin": "https://app.example.com",
+          "Vary": "Origin",
+          "Access-Control-Max-Age": "-1"
+        }
+      }
+    },
+    {
+      "request_id": "req-maxage-invalid",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "response": {
+        "headers": {
+          "Access-Control-Allow-Origin": "https://app.example.com",
+          "Vary": "Origin",
+          "Access-Control-Max-Age": "soon"
+        }
+      }
+    },
+    {
+      "request_id": "req-method-denied",
+      "origin": "https://app.example.com",
+      "method": "DELETE"
+    },
+    {
+      "request_id": "req-header-denied",
+      "origin": "https://app.example.com",
+      "method": "GET",
+      "request_headers": ["X-Custom-Header"]
+    },
+    {
+      "request_id": "req-method-header-denied",
+      "origin": "https://app.example.com",
+      "method": "DELETE",
+      "request_headers": ["X-Custom-Header"]
+    }
+  ]
+}
+
